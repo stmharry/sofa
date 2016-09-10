@@ -35,6 +35,7 @@ INSTALLED_APPS = (
     #'admin_tools.theming',
     #'admin_tools.menu',
     #'admin_tools.dashboard',
+    'bootstrap3',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -70,7 +71,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
             ],
             'loaders': [
-                'admin_tools.template_loaders.Loader',
+                # 'admin_tools.template_loaders.Loader',
                 (
                     'django.template.loaders.cached.Loader',
                     [

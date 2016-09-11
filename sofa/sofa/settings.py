@@ -126,6 +126,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Admin tools
 
-ADMIN_TOOLS_MENU = 'sofa.menu.CustomMenu'
-ADMIN_TOOLS_INDEX_DASHBOARD = 'sofa.dashboard.CustomIndexDashboard'
-ADMIN_TOOLS_APP_INDEX_DASHBOARD = 'sofa.dashboard.CustomAppIndexDashboard'
+# ADMIN_TOOLS_MENU = 'sofa.menu.CustomMenu'
+# ADMIN_TOOLS_INDEX_DASHBOARD = 'sofa.dashboard.CustomIndexDashboard'
+# ADMIN_TOOLS_APP_INDEX_DASHBOARD = 'sofa.dashboard.CustomAppIndexDashboard'
